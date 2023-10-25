@@ -1,0 +1,51 @@
+.buttons {
+    background-color: royalblue;
+    color: white;
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+body   {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    
+   
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pizarron {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 10px;
+ }
+
+ .imagen {
+    max-width: 500px;
+    height: auto;
+    margin: 2em;
+    padding: 25px;
+    /* border-radius: 50%; */
+ }
+
+ .seccionbtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+
+ }
+
+
+ 
